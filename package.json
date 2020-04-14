@@ -1,15 +1,24 @@
 {
-  "name": "live-stream",
+  "name": "icecast-test",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start" : "live-stream-radio --start myStream"
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thearlman/icecastTest.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thearlman/icecastTest/issues"
+  },
+  "homepage": "https://github.com/thearlman/icecastTest#readme",
   "dependencies": {
-    "live-stream-radio": "^2.2.1"
+    "express": "^4.17.1",
+    "node-static": "^0.7.11",
+    "socket.io": "^2.3.0"
   }
 }
