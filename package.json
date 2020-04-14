@@ -1,0 +1,15 @@
+{
+  "name": "live-stream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start" : "live-stream-radio --start myStream"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "live-stream-radio": "^2.2.1"
+  }
+}
